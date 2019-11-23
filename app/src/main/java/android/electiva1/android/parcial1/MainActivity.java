@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         btnenviarsolicitud.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast1 = Toast.makeText(getApplicationContext(), "Solicitud enviada", Toast.LENGTH_SHORT);
+                Toast toast1 = Toast.makeText(getApplicationContext(), "Comprobando si funciona", Toast.LENGTH_SHORT);
                 toast1.setGravity(Gravity.CENTER, 0, 0);
 
                 toast1.show();
